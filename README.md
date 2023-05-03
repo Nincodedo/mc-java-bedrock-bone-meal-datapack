@@ -1,6 +1,6 @@
 # Bedrock Bone Meal Datapack
 
-![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/lrTKvLFZ?logo=modrinth&style=for-the-badge) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/lrTKvLFZ?color=blue&logo=modrinth&style=for-the-badge)
+[![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/lrTKvLFZ?logo=modrinth&style=for-the-badge) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/lrTKvLFZ?color=blue&logo=modrinth&style=for-the-badge)](https://modrinth.com/datapack/bedrock-bone-meal)
 
 Bedrock Bone Meal Datapack is a Minecraft Java datapack that recreates some of Minecraft Bedrock's bone meal functionality for players and dispensers.
 
