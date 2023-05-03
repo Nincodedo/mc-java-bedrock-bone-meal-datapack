@@ -22,4 +22,4 @@ Dispensers can use bone meal to grow sugar cane, just like players. After first 
 
 ## Downloads
 
-You can download the datapack here in [GitHub releases](https://github.com/Nincodedo/mc-java-bedrock-bone-meal-datapack/releases) or on [Mondrinth](https://modrinth.com/datapack/bedrock-bone-meal).
+You can download the datapack here in [GitHub releases](https://github.com/Nincodedo/mc-java-bedrock-bone-meal-datapack/releases/latest) or on [Mondrinth](https://modrinth.com/datapack/bedrock-bone-meal).
