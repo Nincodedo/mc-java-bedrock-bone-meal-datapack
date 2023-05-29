@@ -8,6 +8,8 @@ Bedrock Bone Meal Datapack is a Minecraft Java datapack that recreates some of M
 
 Use bone meal on sugar cane!
 
+![A gif of Minecraft Java. The player is holding bone meal in their right hand and use it on a 1 high block of sugar cane. It grows to a 3 high block of sugar cane.](/docs/images/sugar_cane_bone_meal.gif)
+
 ![A screenshot of Minecraft Java. The player is holding bone meal in their right hand and standing in front of a 3 high block of sugar cane. The player just used the bone meal to grow the sugar cane.](/docs/images/bone_meal_on_sugar_cane.png)
 
 and on small flowers!
