@@ -7,7 +7,7 @@
       ],
       "nbt": "{Items:[{id:\"minecraft:bone_meal\"}]}",
       "state": {
-        "triggered": true
+        "triggered": "true"
       }
     }
   }

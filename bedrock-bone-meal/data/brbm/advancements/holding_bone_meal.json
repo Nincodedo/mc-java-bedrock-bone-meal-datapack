@@ -8,8 +8,11 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:player",
-              "nbt": "{SelectedItem:{id:\"minecraft:bone_meal\"}}"
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:bone_meal"
+                }
+              }
             }
           },
           {

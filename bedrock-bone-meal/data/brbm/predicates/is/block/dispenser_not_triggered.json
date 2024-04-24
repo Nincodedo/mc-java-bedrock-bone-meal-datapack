@@ -6,7 +6,7 @@
         "minecraft:dispenser"
       ],
       "state": {
-        "triggered": false
+        "triggered": "false"
       }
     }
   }
