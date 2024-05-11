@@ -13,3 +13,6 @@ scoreboard objectives add dispenser_slot5 dummy
 scoreboard objectives add dispenser_slot6 dummy
 scoreboard objectives add dispenser_slot7 dummy
 scoreboard objectives add dispenser_slot8 dummy
+
+execute if entity @e[tag=bone_meal_dispenser] run schedule function brbm:dispenser/check_run 2t
+execute if entity @e[tag=bone_meal_dispenser] run schedule function brbm:dispenser/check_broken_dispenser 2.5s
