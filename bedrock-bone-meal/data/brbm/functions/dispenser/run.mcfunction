@@ -7,4 +7,6 @@ execute if entity @s[tag=face_south] positioned ~ ~ ~1 if block ~ ~ ~ minecraft:
 execute if entity @s[tag=face_east] positioned ~1 ~ ~ if block ~ ~ ~ minecraft:sugar_cane run function brbm:sugar_cane/count_column
 execute if entity @s[tag=face_west] positioned ~-1 ~ ~ if block ~ ~ ~ minecraft:sugar_cane run function brbm:sugar_cane/count_column
 
+tellraw @a[tag=debug_logging] [{"text": "[Debug - brbm:dispenser/run] Sugar Cane height: "},{"score":{"name": "@s","objective": "sugarcaneheight"}}]
+
 execute if score @s sugarcaneheight matches 1..2 run function brbm:dispenser/use_bone_meal

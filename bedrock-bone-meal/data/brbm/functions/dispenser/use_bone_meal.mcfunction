@@ -37,6 +37,8 @@ scoreboard players operation @s rngmax += @s dispenser_slot8
 
 execute store result score @s dispslotpick run loot spawn ~ ~ ~ loot brbm:rng/score
 
+tellraw @a[tag=debug_logging] [{"text": "[Debug - brbm:dispenser/use_bone_meal] Using slot "},{"score":{"name": "@s","objective": "dispslotpick"}}]
+
 execute if score @s dispenser_slot0 = @s dispslotpick run item modify block ~ ~ ~ container.0 brbm:general/remove_one_item
 execute if score @s dispenser_slot0 matches 1 run scoreboard players remove @s dispslotpick 1
 execute if score @s dispenser_slot1 = @s dispslotpick run item modify block ~ ~ ~ container.1 brbm:general/remove_one_item
