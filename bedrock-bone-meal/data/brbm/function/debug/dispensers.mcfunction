@@ -7,6 +7,7 @@ execute as @e[tag=brbm_debug_block,tag=!brbm_debug_block_done] run data modify e
 execute as @e[tag=brbm_debug_block,tag=!brbm_debug_block_done] at @s run tp ~0.01 ~0.01 ~0.01
 
 # Bone meal item display
+#TODO: Add other directions
 execute as @e[tag=brbm_debug_block,tag=!brbm_debug_block_done] at @s if entity @e[tag=face_south,sort=nearest,limit=1,distance=..1] run summon minecraft:item_display ~0.5 ~0.5 ~1 {width:1.0f,item_display:"gui",item:{id:"minecraft:bone_meal",count:1},Tags:["brbm_debug_dispenser_bone_meal_item","brbm_debug_dispenser_bone_meal_south","brbm_debug_obj"]}
 execute as @e[tag=brbm_debug_dispenser_bone_meal_item,tag=!brbm_debug_dispenser_bone_meal_item_done] run data modify entity @s transformation.scale set value [0.25f,0.25f,0.25f]
 execute as @e[tag=brbm_debug_dispenser_bone_meal_south,tag=!brbm_debug_dispenser_bone_meal_item_done] at @s run tp ~-.37 ~.37 ~
