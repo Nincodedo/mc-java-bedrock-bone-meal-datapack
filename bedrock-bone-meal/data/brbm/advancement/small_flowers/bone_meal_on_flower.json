@@ -4,9 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:bone_meal"
-          ],
+          "items": "minecraft:bone_meal",
           "count": {
             "min": 1
           }
@@ -16,7 +14,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"sugar_cane_interaction\"]}"
+              "nbt": "{Tags:[\"small_flower_interaction\"]}"
             }
           }
         ]
@@ -24,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "brbm:sugar_cane/use_bone_meal"
+    "function": "brbm:small_flowers/use_bone_meal"
   }
 }

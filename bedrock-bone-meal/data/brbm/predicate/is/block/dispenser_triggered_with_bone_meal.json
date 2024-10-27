@@ -2,9 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "block": {
-      "blocks": [
-        "minecraft:dispenser"
-      ],
+      "blocks": "minecraft:dispenser",
       "nbt": "{Items:[{id:\"minecraft:bone_meal\"}]}",
       "state": {
         "triggered": "true"
